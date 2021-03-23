@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private StaticRvAdapter staticRvAdapter;
     List<DynamicRVModel> items = new ArrayList<>();
+    ArrayList<StaticRvModel> item = new ArrayList<>();
     DynamicRVAdapter dynamicRVAdapter;
     ImageView Profil;
 
@@ -39,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final ArrayList<StaticRvModel> item = new ArrayList<>();
         item.add(new StaticRvModel(R.drawable.ayamgeprek, "ayam geprek"));
         item.add(new StaticRvModel(R.drawable.miegoreng, "mie goreng"));
         item.add(new StaticRvModel(R.drawable.nasigoreng, "nasi goreng"));
@@ -52,15 +52,15 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false));
         recyclerView.setAdapter(staticRvAdapter);
 
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
-        items.add(new DynamicRVModel("Ayam Geprek"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
+        items.add(new DynamicRVModel("jus Stroberi"));
 
         RecyclerView drv = findViewById(R.id.rv_2);
         drv.setLayoutManager(new LinearLayoutManager(this));
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         dynamicRVAdapter.setLoadMore(new LoadMore() {
             @Override
             public void onLoadMore() {
-                if (items.size()<=10){
+                if (items.size()<=5){
                     item.add(null);
                     dynamicRVAdapter.notifyItemInserted(items.size()-1);
                     new Handler().postDelayed(new Runnable() {

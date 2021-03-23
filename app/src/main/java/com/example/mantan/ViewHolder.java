@@ -29,8 +29,6 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         TextView Nama = mView.findViewById(R.id.text);
         ImageView mImage = mView.findViewById(R.id.image);
 
-
-        //set data to views
         Nama.setText("Date= "+nama);
         Picasso.get().load(image).into(mImage);
 
