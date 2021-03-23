@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "782409845791",
+    "firebase_url": "https://mantan-91756.firebaseio.com",
+    "project_id": "mantan-91756",
+    "storage_bucket": "mantan-91756.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782409845791:android:1067787463226410fb192a",
+        "android_client_info": {
+          "package_name": "com.example.mantan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782409845791-pejjme2blvcmlnjoti7o12hglo8mlm56.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mantan",
+            "certificate_hash": "2e0bda9cddb807bed046196a02b60e567e7cad8a"
+          }
+        },
+        {
+          "client_id": "782409845791-bhrgms1fvd34r6kejd5i4uqmvr04trsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmWk-A7LnAvkPPA0aSW6VGGdFg2A0XYMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782409845791-bhrgms1fvd34r6kejd5i4uqmvr04trsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
