@@ -46,7 +46,7 @@ public class splash extends AppCompatActivity {
         anim = AnimationUtils.loadAnimation(this,R.anim.o_b_anim);
         viewPager.startAnimation(anim);
 
-        splashImg.animate().translationY(-2700).setDuration(2000).setStartDelay(4000);
+        splashImg.animate().translationY(-4700).setDuration(2000).setStartDelay(4000);
         logo.animate().translationY(2000).setDuration(2000).setStartDelay(4000);
         appName.animate().translationY(2000).setDuration(2000).setStartDelay(4000);
         lottieAnimationView.animate().translationY(2000).setDuration(2000).setStartDelay(4000);

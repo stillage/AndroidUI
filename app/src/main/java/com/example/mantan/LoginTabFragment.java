@@ -27,7 +27,7 @@ public class LoginTabFragment extends Fragment {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent login = new Intent(getActivity(), MainActivity.class);
+                Intent login = new Intent(getActivity(), MainActivityDash.class);
                 startActivity(login);
             }
         });

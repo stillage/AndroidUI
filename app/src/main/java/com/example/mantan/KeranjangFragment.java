@@ -7,11 +7,11 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
-public class NearbyResFragment extends Fragment {
+public class KeranjangFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.dashboard_fragment, container, false);
+        ViewGroup root = (ViewGroup) inflater.inflate(R.layout.keranjang_fragment, container, false);
         return root;
     }
 }

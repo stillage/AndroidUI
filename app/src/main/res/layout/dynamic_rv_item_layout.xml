@@ -11,16 +11,18 @@
         android:layout_height="100dp"
         android:elevation="20dp"
         android:src="@drawable/jus"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@id/constraintLayout2"/>
+        android:outlineSpotShadowColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
         android:layout_width="0dp"
         android:layout_height="90dp"
         android:background="@drawable/dynamic_rv_bg"
-        android:elevation="3dp"
+        app:layout_constraintHorizontal_bias=".5"
+        android:outlineSpotShadowColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,10 +38,10 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias=".1"
+            app:layout_constraintHorizontal_bias="0.149"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias=".15" />
+            app:layout_constraintVertical_bias="0.154" />
 
         <TextView
             android:id="@+id/details"
@@ -61,6 +63,9 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0"
+            android:numStars="5"
+            android:rating="4.5"
+            android:stepSize="0.5"
             app:layout_constraintStart_toStartOf="@+id/details"
             app:layout_constraintTop_toBottomOf="@+id/details"
             app:layout_constraintVertical_bias=".5" />

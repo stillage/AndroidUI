@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
-public class MainActivity extends AppCompatActivity {
+public class Dash_board extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private StaticRvAdapter staticRvAdapter;
@@ -30,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_dash_board);
         Profil = findViewById(R.id.profil);
         Profil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intToMain = new Intent(MainActivity.this, ProfilActivity.class);
+                Intent intToMain = new Intent(Dash_board.this, ProfilActivity.class);
                 startActivity(intToMain);
             }
         });
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     }, 4000);
                 }
                 else
-                    Toast.makeText(MainActivity.this, "Telah Terbaca Semua", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Dash_board.this, "Telah Terbaca Semua", Toast.LENGTH_SHORT).show();
             }
         });
 
