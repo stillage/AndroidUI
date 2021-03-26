@@ -99,7 +99,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="453K"
+                    android:text="Rp. 300.000"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
 
@@ -107,7 +107,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="followers"
+                    android:text="Saldo"
 
                     android:textAllCaps="true"
                     android:textColor="@color/black"
@@ -137,7 +137,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="873"
+                    android:text="25"
                     android:textColor="@color/black"
                     android:textSize="25sp" />
 
@@ -145,7 +145,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="following"
+                    android:text="Riwayat"
                     android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textSize="13sp" />

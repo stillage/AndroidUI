@@ -78,12 +78,12 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="170dp"
+        android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/buy_now_bg"
-        android:text="Antar Sekarang"
+        android:text="Checkout"
         android:textColor="@color/white"
         android:elevation="3dp"
         android:textSize="16sp"
